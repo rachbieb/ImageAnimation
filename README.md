@@ -40,7 +40,7 @@ The result will be stored in ```result.mp4```.
 
 The driving videos and source images should be cropped before it can be used in our method. To obtain some semi-automatic crop suggestions you can use ```python crop-video.py --inp some_youtube_video.mp4```. It will generate commands for crops using ffmpeg. In order to use the script, face-alligment library is needed:
 ```
-git clone https://github.com/1adrianb/face-alignment
+git clone https://github.com/rachbieb/ImageAnimation
 cd face-alignment
 pip install -r requirements.txt
 python setup.py install
